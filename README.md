@@ -30,3 +30,5 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 ```bash
 @workspace por favor gere um método que receba uma URL de uma API REST, e faça uma chamada HTTP e em seguida imprima o retorno em formato de texto
 ```
+
+[Prompt Copilot](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat)
