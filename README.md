@@ -48,4 +48,7 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 
 ```bash
 @workspace por favor, gere um novo método no #file:Main.java que receba um número inteiro e retorne o texto se ele é par ou impar
+
+@workspace por favor insira a dependencia do junit jupiter
+
 ```
