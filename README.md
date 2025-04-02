@@ -32,3 +32,7 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 ```
 
 [Prompt Copilot](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat)
+
+```bash
+@workspace /explain por favor explique o método chamarApiRest
+```
