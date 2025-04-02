@@ -18,3 +18,7 @@
 
 [Atalhos Github Copilot](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-your-environment?tool=jetbrains)
 
+## Prompt gitignore
+```bash
+por favor, gere um arquivo .gitignore para o meu projeto java maven
+```
