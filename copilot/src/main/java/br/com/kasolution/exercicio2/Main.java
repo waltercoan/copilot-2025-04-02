@@ -1,11 +1,11 @@
 package br.com.kasolution.exercicio2;
 
 import java.io.BufferedReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.io.FileWriter;
 
 public class Main {
 
@@ -106,5 +106,15 @@ public class Main {
             // Trata exceções e exibe uma mensagem de erro no console.
             System.err.println("Erro ao chamar a API: " + e.getMessage());
         }
+    }
+
+    /**
+     * Verifica se um número inteiro é par ou ímpar.
+     *
+     * @param numero O número inteiro a ser verificado.
+     * @return Uma string indicando se o número é "Par" ou "Ímpar".
+     */
+    public static String verificarParOuImpar(int numero) {
+        return (numero % 2 == 0) ? "Par" : "Ímpar";
     }
 }

@@ -44,3 +44,8 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 ```bash
 @workspace /explain por favor gere a documentação no código linha a linha para o método chamarApiRest, sem modificar o código fonte
 ```
+
+
+```bash
+@workspace por favor, gere um novo método no #file:Main.java que receba um número inteiro e retorne o texto se ele é par ou impar
+```
