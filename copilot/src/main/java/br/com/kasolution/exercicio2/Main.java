@@ -64,27 +64,46 @@ public class Main {
      */
     public static void chamarApiRest(String apiUrl) {
         try {
+            // Cria um objeto URL a partir da string fornecida como parâmetro.
             URL url = new URL(apiUrl);
+            
+            // Abre uma conexão HTTP com a URL fornecida.
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            
+            // Define o método HTTP como GET para a requisição.
             connection.setRequestMethod("GET");
 
+            // Obtém o código de resposta da requisição HTTP.
             int responseCode = connection.getResponseCode();
+            
+            // Verifica se o código de resposta é HTTP 200 (OK).
             if (responseCode == HttpURLConnection.HTTP_OK) {
+                // Cria um BufferedReader para ler a resposta da API.
                 BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+                
+                // Variável para armazenar cada linha da resposta.
                 String inputLine;
+                
+                // StringBuilder para construir a resposta completa.
                 StringBuilder response = new StringBuilder();
 
+                // Lê cada linha da resposta e adiciona ao StringBuilder.
                 while ((inputLine = in.readLine()) != null) {
                     response.append(inputLine);
                 }
+                
+                // Fecha o BufferedReader após a leitura.
                 in.close();
 
+                // Exibe a resposta da API no console.
                 System.out.println("Resposta da API:");
                 System.out.println(response.toString());
             } else {
+                // Exibe uma mensagem de erro caso o código de resposta não seja HTTP 200.
                 System.err.println("Erro na chamada da API. Código de resposta: " + responseCode);
             }
         } catch (Exception e) {
+            // Trata exceções e exibe uma mensagem de erro no console.
             System.err.println("Erro ao chamar a API: " + e.getMessage());
         }
     }
