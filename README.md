@@ -51,4 +51,5 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 
 @workspace por favor insira a dependencia do junit jupiter
 
+@workspace por favor gere um teste de unidade para o método verificarParOuImpar na pasta de test do projeto seguindo o mesmo pacote.
 ```
