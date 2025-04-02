@@ -38,6 +38,30 @@ public class Main {
         }
     }
 
+    /**
+     * Realiza uma chamada HTTP GET para uma API REST e exibe a resposta no console.
+     *
+     * @param apiUrl A URL da API que será chamada.
+     *               Deve ser uma URL válida e acessível.
+     *
+     * O método realiza as seguintes etapas:
+     * 1. Abre uma conexão HTTP com a URL fornecida.
+     * 2. Envia uma requisição GET.
+     * 3. Lê a resposta da API, caso o código de resposta seja HTTP 200 (OK).
+     * 4. Exibe a resposta no console ou uma mensagem de erro em caso de falha.
+     *
+     * Tratamento de erros:
+     * - Exibe mensagens de erro no console caso ocorra uma exceção ou se o código
+     *   de resposta da API não for HTTP 200.
+     *
+     * Exemplo de uso:
+     * <pre>
+     * chamarApiRest("https://jsonplaceholder.typicode.com/posts/1");
+     * </pre>
+     *
+     * Possíveis melhorias:
+     * - Adicionar suporte para outros métodos HTTP (
+     */
     public static void chamarApiRest(String apiUrl) {
         try {
             URL url = new URL(apiUrl);

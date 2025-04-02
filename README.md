@@ -36,3 +36,7 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 ```bash
 @workspace /explain por favor explique o método chamarApiRest
 ```
+
+```bash
+@workspace /explain por favor gere a documentação no código para o método chamarApiRest
+```
