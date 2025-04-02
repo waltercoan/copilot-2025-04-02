@@ -26,3 +26,7 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 ```bash
 @workspace crie uma função para  gerar um arquivo .csv com alguns dados dentro
 ```
+
+```bash
+@workspace por favor gere um método que receba uma URL de uma API REST, e faça uma chamada HTTP e em seguida imprima o retorno em formato de texto
+```
