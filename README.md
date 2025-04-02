@@ -56,3 +56,6 @@ por favor, gere um arquivo .gitignore para o meu projeto java maven
 ```bash
 @workspace crie um novo arquivo main no pacote br.com.kasolution.exercicio3 e definir um método para criar validação para email. O método deve ser chamado validarEmail e deve receber um parâmetro do tipo String com o email a ser validado. O método deve retornar um boolean indicando se o email é válido ou não. O método main deve chamar o método validarEmail e passar o email. Ao começar a digitar a função ‘validarEmail’, o Copilot pode sugerir o uso de expressões regulares para validação. 
 ```
+```bash
+definir um método para criar uma validação para CPF. O método deve ser chamado validarCPF e deve receber um parâmetro do tipo String com o CPF a ser validado. O método deve retornar um boolean indicando se o CPF é válido ou não. O método main deve chamar o método validarCPF e passar o CPF "123.456.789-10" como parâmetro. O Copilot pode ajudar a sugerir a criação do método para validação de CPF 
+```
