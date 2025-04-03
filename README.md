@@ -108,3 +108,19 @@ O programa deve ser composto pelos seguintes recursos:
 ```bash
 @workspace /explain gere a documentação linha a linha
 ```
+
+## Exercício 8
+
+```bash
+Implemente um programa que utilize herança para representar funcionários de uma empresa e 
+verificar se eles têm direito a férias. 
+1. Crie uma classe base chamada Pessoa, contendo atributos comuns como nome e um método para exibir 
+informações.  
+2. Crie uma classe derivada Funcionario, que herda de Pessoa e adiciona um atributo para armazenar o 
+tempo de serviço (em meses). Na classe Funcionario, implemente um método que verifica se o 
+funcionário tem mais de 12 meses de serviço e retorna se ele tem direito a férias.  
+3. O programa deve solicitar ao usuário a quantidade de funcionários, e para cada funcionário, pedir o 
+nome e o tempo de serviço. Exiba uma mensagem informando se cada funcionário tem ou não direito a 
+férias.  
+4. Ao final, mostre a quantidade total de funcionários com e sem direito a férias. 
+```
