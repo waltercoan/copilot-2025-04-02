@@ -11,10 +11,14 @@ public class Main {
 
     // defina uma função ou método para calcular a média de uma lista de numeros
     public static double calcularMedia(double[] numeros) {
+        // Inicializa a variável soma com 0 para armazenar a soma dos números
         double soma = 0;
+        // Itera sobre cada número no array de números
         for (double numero : numeros) {
+            // Adiciona o número atual à soma
             soma += numero;
         }
+        // Retorna a média calculada dividindo a soma pelo número de elementos no array
         return soma / numeros.length;
     }
     //defina um método para calcular a média de uma lista de numeros utilizando o método stream

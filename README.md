@@ -74,3 +74,17 @@ definir um método para gerenciar a conexão com um banco de dados SQL Server. O
 ```bash
 @workspace #sym:## Exercício 5 SQL por favor gere o código na linguagem SQL para criar as tabelas e associações
 ```
+
+## Exercício 6
+
+```bash
+Crie uma classe chamada ‘Carro’ que descreve e implementa atributos referente a uma veículo 
+automotor.  
+A classe deve: 
+1. Descrever alguns atributos: por exemplo, marca, modelo, cor, ano. 
+2. Gerar o método-construtor da classe para inicializar seus atributos 
+3. Gerar o método booleano vender() com valor default true. 
+4. Gerar o método  imprimir() para exibir os valores atribuídos as propriedades(atributos) da classe. 
+5. Crie uma classe chamada ‘MainClass’  para gerar o método main e, a partir, gerar o objeto da classe 
+Carro, acessar seus atributos, atribuir valores as propriedades e chamar os métodos a sua execução 
+```
