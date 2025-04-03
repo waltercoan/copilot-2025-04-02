@@ -124,3 +124,68 @@ nome e o tempo de serviço. Exiba uma mensagem informando se cada funcionário t
 férias.  
 4. Ao final, mostre a quantidade total de funcionários com e sem direito a férias. 
 ```
+## Exercício 9
+
+```bash
+Desenvolver um simulador de caixa eletrônico utilizando a linguagem Java e uma interface gráfica
+baseada na biblioteca Swing. O programa permitirá que um usuário realize operações bancárias
+básicas, como:
+• Saque
+• Consulta de saldo
+• Depósito
+• Pagamento de contas
+• Transferência entre contas
+O usuário deverá inserir suas credenciais para acessar sua conta e, após a autenticação, poderá navegar por um
+menu interativo para realizar as operações bancárias.
+Requisitos do Sistema
+1. Interface Gráfica (GUI)
+A interface do caixa eletrônico deve conter:
+Tela de Login (usuário e senha)
+Tela Principal com botões para cada operação
+Tela para cada operação (saque, depósito, etc.), onde o usuário insere os valores e confirma a
+transação
+Mensagens de erro e sucesso exibidas para o usuário
+2. Funcionalidades do Caixa Eletrônico
+Cada operação deve funcionar conforme descrito abaixo:
+2.1. Login do Usuário
+• O usuário deve inserir um número de conta e senha.
+• Se a autenticação falhar, uma mensagem de erro deve ser exibida.
+• Após o login bem-sucedido, o usuário será redirecionado para a tela principal.
+2.2. Consulta de Saldo
+• O sistema exibe o saldo atual da conta.
+2.3. Saque
+• O usuário insere um valor para sacar.
+• O sistema verifica se há saldo suficiente.
+• Se o saldo for suficiente, o valor é deduzido da conta e uma mensagem de sucesso é
+exibida.
+• Caso contrário, exibir uma mensagem de erro.
+2.4. Depósito
+• O usuário insere um valor para depositar.
+• O valor é adicionado ao saldo da conta.
+• Uma mensagem de sucesso é exibida.
+2.5. Pagamento de Conta
+• O usuário insere um número da conta e o valor do pagamento.
+• O sistema verifica se há saldo suficiente.
+• Se houver saldo, o pagamento é efetuado.
+• Se não houver saldo, uma mensagem de erro é exibida.
+2.6. Transferência entre Contas
+• O usuário informa número da conta destino e valor da transferência.
+• O sistema verifica se há saldo suficiente.
+• Se houver saldo, o valor é transferido para a conta de destino.
+• Caso contrário, exibir uma mensagem de erro.
+3. Requisitos Técnicos
+• Linguagem: Java
+• Interface Gráfica: Swing
+• Persistência de Dados: Pode ser feita usando um arquivo .txt, .json, ou um banco de dados como SQLite
+Classes Principais:
+• ContaBancaria: Armazena os dados da conta e operações bancárias.
+• Usuario: Representa o titular da conta.
+• CaixaEletronico: Controla a interface gráfica e as operações.
+4. Fluxo do Programa
+• Tela de Login
+• Menu Principal (Selecionar Operação)
+• Tela da Operação Escolhida (Saque, Depósito, etc.)
+• Processamento da Transação
+• Exibição de Mensagem de Sucesso ou Erro
+• Voltar ao Menu Principal ou Encerrar Sessão
+```
