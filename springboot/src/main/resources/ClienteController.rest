@@ -1,0 +1,46 @@
+### Listar todos os clientes
+GET http://localhost:8080/api/clientes
+Accept: application/json
+
+###
+
+### Buscar cliente por ID
+GET http://localhost:8080/api/clientes/1
+Accept: application/json
+
+###
+
+### Criar um novo cliente
+POST http://localhost:8080/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "João Silva",
+  "endereco": "Rua das Flores, 123",
+  "telefone": "123456789",
+  "email": "joao.silva@example.com",
+  "estado": {
+    "id": 1
+  }
+}
+
+###
+
+### Atualizar um cliente existente
+PUT http://localhost:8080/api/clientes/2
+Content-Type: application/json
+
+{
+  "nome": "João Silva Atualizado",
+  "endereco": "Rua das Flores, 456",
+  "telefone": "987654321",
+  "email": "joao.silva.atualizado@example.com",
+  "estado": {
+    "id": 1
+  }
+}
+
+###
+
+### Deletar um cliente
+DELETE http://localhost:8080/api/clientes/2

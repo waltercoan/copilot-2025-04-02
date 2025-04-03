@@ -1,3 +1,8 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "plantuml.commandArgs": [],
+    "plantuml.diagramsRoot": "./diagramas",
+    "plantuml.exportOutDir": "./diagramas/png",
+    "plantuml.exportFormat": "png",
+    "plantuml.exportSubFolder": false
 }

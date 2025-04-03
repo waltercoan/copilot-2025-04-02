@@ -1,0 +1,21 @@
+@startuml
+package br.com.kasolution.springboot.entities {
+    class Cliente {
+        + Long id
+        + String nome
+        + String endereco
+        + String telefone
+        + String email
+        + Estado estado
+    }
+
+    class Estado {
+        + Long id
+        + String nome
+        + String pais
+        + List<Cliente> clientes
+    }
+
+    Cliente "*" --> "1" Estado : pertence a
+}
+@enduml

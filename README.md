@@ -247,12 +247,27 @@ Swing. Swing refere-se ao kit de ferramentas do widget da GUI para criar aplicat
 - Como um atendente eu gostaria de altearr os dados de um cliente
 - Como um atendente eu gostaria de excluir um cliente pelo nome
 - Como um atendente ue gostaria de registrar os estados com os dados: nome, pais
-- 
-- 
+
 ```bash
 @workspace #sym:## Histórias de Usuário quais são as entidades?
 
 por favor gere as classes em java no pacote br.com.kasolution.springboot.entities para representar as entidades
 
 @workspace por favor altere as entidades para que possam ser persistidas no banco de dados
+```
+
+[PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+
+```bash
+considerando a #sym:Cliente #sym:Estado gere um arquivo no formato plantuml representando as classes e suas associações
+
+
+@workspace #file:Cliente.java crie a interface no pacote repository para persistir a entidade
+@workspace #file:Estado.java crie a interface no pacote repository para persistir a entidade
+
+@workspace gere um arquivo no padrão do rest client para invocar os endpoints da api rest
+
+@workspace gere um arquivo Dockerfile no projeto springboot utilizando a estratégia de multi stage build
+
+@workspace por favor gere um arquivo descritor do github actions na pasta de workflows para compilar o projeto springboot, rodar os testes e gerar uma imagem docker
 ```
