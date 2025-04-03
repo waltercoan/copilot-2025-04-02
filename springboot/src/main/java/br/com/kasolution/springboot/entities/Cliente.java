@@ -1,10 +1,20 @@
 package br.com.kasolution.springboot.entities;
 
+import jakarta.persistence.*;
+
+@Entity
 public class Cliente {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
     private String nome;
     private String endereco;
     private String telefone;
     private String email;
+
+    @ManyToOne
+    @JoinColumn(name = "estado_id")
     private Estado estado;
 
     // Construtor
@@ -16,7 +26,17 @@ public class Cliente {
         this.estado = estado;
     }
 
+    public Cliente() {}
+
     // Getters e Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getNome() {
         return nome;
     }

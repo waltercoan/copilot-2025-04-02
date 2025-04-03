@@ -254,4 +254,5 @@ Swing. Swing refere-se ao kit de ferramentas do widget da GUI para criar aplicat
 
 por favor gere as classes em java no pacote br.com.kasolution.springboot.entities para representar as entidades
 
+@workspace por favor altere as entidades para que possam ser persistidas no banco de dados
 ```
