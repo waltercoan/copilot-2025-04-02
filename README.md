@@ -88,3 +88,17 @@ A classe deve:
 5. Crie uma classe chamada ‘MainClass’  para gerar o método main e, a partir, gerar o objeto da classe 
 Carro, acessar seus atributos, atribuir valores as propriedades e chamar os métodos a sua execução 
 ```
+## Exercício 7
+
+```bash
+Crie um programa que simule o funcionamento de um caixa de supermercado. O caixa fica aberto até 
+o fim do expediente e pode processar a compra de vários clientes. Cada cliente pode comprar vários itens. Ao ler 
+cada item deve ser exibida uma mensagem para o operador do caixa perguntando se há mais itens a serem 
+processados. Ao final, exiba quanto a compra custou ao cliente. E então solicite do operador do caixa a 
+informação se deseja fechar o caixa. Encerre o algoritmo quando o usuário informar que deseja fechar o caixa 
+O programa deve ser composto pelos seguintes recursos: 
+1. Classe para representar um item do supermercado (nome e preço). Retornar 1 se `n` for 0 ou 1. 
+2. Classe para armazenar os itens comprados e calcular o total.  
+3. Classe para iniciar o programa e gerenciar o caixa.  
+4. Classe principal que gerencia o fluxo do caixa e interage com o operador.  
+```
