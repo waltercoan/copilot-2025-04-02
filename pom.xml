@@ -11,6 +11,7 @@
 
     <modules>
         <module>copilot</module>
+        <module>springboot</module>
     </modules>
 
 </project>

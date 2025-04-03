@@ -234,3 +234,9 @@ JFrame, diferentes elementos, como rótulos, campos de texto e botões, podem se
 no JFrame criam a interface gráfica do usuário.O JFrame também é conhecido como contêiner de nível superior
 Swing. Swing refere-se ao kit de ferramentas do widget da GUI para criar aplicativos em JAVA. "
 ```
+## Projeto Spring Boot
+[Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack)
+
+```bash
+@workspace por favor gere as configurações necessárias no arquivo application.properties para conectar no banco de dados H2 e acessara a interface web
+```
